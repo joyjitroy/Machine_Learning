@@ -4,11 +4,11 @@
 
 A collection of Machine Learning projects demonstrating various deep learning techniques including Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Natural Language Processing (NLP).
 
-**Author:** Joyjit Roy  
-**Email:** joyjit.roy.tech@gmail.com
+| Role      | Name                    | Email                     |
+|-----------|-------------------------|---------------------------|
+| Author    | Joyjit Roy              | joyjit.roy.tech@gmail.com |
+| Co-Author | Samaresh Kumar Singh    | ssam3003@gmail.com        |
 
-**Co-Author:** Samaresh Kumar Singh
-**Email:** ssam3003@gmail.com
 ---
 
 ## �️ Project Overview
