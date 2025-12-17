@@ -16,21 +16,26 @@ A collection of Machine Learning projects demonstrating various deep learning te
 flowchart TB
     subgraph repo["📁 Machine Learning Repository"]
         direction TB
-        
+
         subgraph ann["🏦 Bank Churn Prediction"]
             A1[Customer Data] --> A2[Data Preprocessing]
             A2 --> A3[Feature Engineering]
             A3 --> A4[ANN Model]
             A4 --> A5[Churn Prediction]
         end
-        
+
+        %% invisible spacer
+        ann --> spacer1(( ))
+
         subgraph cnn["🌱 Plant Seedling Classification"]
             B1[Plant Images] --> B2[Image Preprocessing]
             B2 --> B3[Data Augmentation]
             B3 --> B4[CNN Model]
             B4 --> B5[Species Classification]
         end
-        
+
+        spacer1 --> spacer2(( ))
+
         subgraph nlp["📈 Stock Sentiment Analysis"]
             C1[Financial News] --> C2[Text Preprocessing]
             C2 --> C3[Word Embeddings]
@@ -42,12 +47,14 @@ flowchart TB
             C8 --> C9[Sentiment Prediction]
         end
     end
-    
+
+    style spacer1 fill:none,stroke:none
+    style spacer2 fill:none,stroke:none
     style repo fill:#f5f5f5,stroke:#333,stroke-width:2px
     style ann fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     style cnn fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
     style nlp fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-```
+
 
 ---
 
