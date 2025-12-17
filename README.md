@@ -14,43 +14,40 @@ A collection of Machine Learning projects demonstrating various deep learning te
 
 ```mermaid
 flowchart TB
-    subgraph repo["📂 Machine Learning Repository"]
-        direction TB
 
-        subgraph ann["🏦 Bank Churn Prediction"]
-            direction TB
-            A1[Customer Data] --> A2[Data Preprocessing]
-            A2 --> A3[Feature Engineering]
-            A3 --> A4[ANN Model]
-            A4 --> A5[Churn Prediction]
-        end
+subgraph ann["🏦 Bank Churn Prediction"]
+  direction TB
+  A1[Customer Data] --> A2[Data Preprocessing]
+  A2 --> A3[Feature Engineering]
+  A3 --> A4[ANN Model]
+  A4 --> A5[Churn Prediction]
+end
 
-        ann --> X1[ ]
+ann --> spacer1
 
-        subgraph cnn["🌱 Plant Seedling Classification"]
-            direction TB
-            B1[Plant Images] --> B2[Image Preprocessing]
-            B2 --> B3[Data Augmentation]
-            B3 --> B4[CNN Model]
-            B4 --> B5[Species Classification]
-        end
+subgraph cnn["🌱 Plant Seedling Classification"]
+  direction TB
+  B1[Plant Images] --> B2[Image Preprocessing]
+  B2 --> B3[Data Augmentation]
+  B3 --> B4[CNN Model]
+  B4 --> B5[Species Classification]
+end
 
-        X1 --> X2[ ]
+spacer1 --> spacer2
 
-        subgraph nlp["📈 Stock Sentiment Analysis"]
-            direction TB
-            C1[Financial News] --> C2[Text Preprocessing]
-            C2 --> C3[Word Embeddings]
-            C3 --> C4{Embedding Type}
-            C4 --> C5[Word2Vec]
-            C4 --> C6[GloVe]
-            C4 --> C7[SentenceTransformer]
-            C5 --> C8[Gradient Boosting]
-            C6 --> C8
-            C7 --> C8
-            C8 --> C9[Sentiment Prediction]
-        end
-    end
+subgraph nlp["📈 Stock Sentiment Analysis"]
+  direction TB
+  C1[Financial News] --> C2[Text Preprocessing]
+  C2 --> C3[Word Embeddings]
+  C3 --> C4{Embedding Type}
+  C4 --> C5[Word2Vec]
+  C4 --> C6[GloVe]
+  C4 --> C7[SentenceTransformer]
+  C5 --> C8[Gradient Boosting]
+  C6 --> C8
+  C7 --> C8
+  C8 --> C9[Sentiment Prediction]
+end
 
 
 ---
