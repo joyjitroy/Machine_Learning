@@ -5,6 +5,9 @@ A collection of Machine Learning projects demonstrating various deep learning te
 **Author:** Joyjit Roy  
 **Email:** joyjit.roy@gmail.com
 
+**Co-Author:** Samaresh Kumar Singh  
+**Email:** ssam3003@gmail.com
+
 ---
 
 ## �️ Project Overview
