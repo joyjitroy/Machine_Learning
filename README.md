@@ -1,8 +1,7 @@
 @@ -1 +1,187 @@
-# Machine_Learning
 # Machine Learning Projects Repository
 
-A collection of Machine Learning projects demonstrating various deep learning techniques including Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Natural Language Processing (NLP).
+A collection of Machine Learning projects demonstrating various deep learning techniques, including Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Natural Language Processing (NLP).
 
 | Role      | Name                    | Email                     |
 |-----------|-------------------------|---------------------------|
@@ -147,6 +146,28 @@ Machine_Learning/
 - Zenodo DOI: https://doi.org/10.5281/zenodo.17510735
 - Hugging Face: https://huggingface.co/joyjitroy/Stock_Market_News_Sentiment_Analysis
 
+**Flowchart**
+```mermaid
+flowchart TB
+    subgraph repo["📁 Machine Learning Repository"]
+        direction TB      
+        subgraph nlp["📈 Stock Sentiment Analysis"]
+            C1[Financial News] --> C2[Text Preprocessing]
+            C2 --> C3[Word Embeddings]
+            C3 --> C4{Embedding Type}
+            C4 --> C5[Word2Vec]
+            C4 --> C6[GloVe]
+            C4 --> C7[SentenceTransformer]
+            C5 & C6 & C7 --> C8[Gradient Boosting]
+            C8 --> C9[Sentiment Prediction]
+        end
+    end
+    
+    style repo fill:#f5f5f5,stroke:#333,stroke-width:2px
+    style ann fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style cnn fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style nlp fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+```
 ---
 
 ## 🛠️ Technologies & Libraries
